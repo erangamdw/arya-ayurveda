@@ -20,7 +20,7 @@ const Footer = () => {
           </h3>
         </div>
         <div className="footer-content">
-          <ul className="footer-social-links flex flex-c">
+          <ul className="flex footer-social-links flex-c">
             <li>
               <a href="/" className="text-white">
                 <FaFacebookF />
@@ -47,8 +47,8 @@ const Footer = () => {
               </a>
             </li>
           </ul>
-          <p className="text-center fs-14 text-white op-07 fw-3 ls-1 reserved-text">
-            All Rights Reserved &copy; 2023
+          <p className="text-center text-white fs-14 op-07 fw-3 ls-1 reserved-text">
+            All Rights Reserved &copy; 2024
           </p>
         </div>
       </div>

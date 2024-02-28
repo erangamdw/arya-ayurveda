@@ -13,3 +13,27 @@
 .footer .reserved-text{
     margin-top: 2rem;
 }
+
+.phone-number {
+    display: flex;
+    align-items: center;
+  }
+  
+  .phone-number a {
+    display: flex;
+    align-items: center;
+    text-decoration: none; /* If you want to remove the underline from the phone number */
+  }
+  
+  .phone-number span {
+    margin-left: 5px; 
+  }
+
+  .contact-info {
+    text-align: right;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+    color: #fff;
+  }

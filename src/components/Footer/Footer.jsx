@@ -54,7 +54,7 @@ const Footer = () => {
         </div>
         <div className="contact-info">
           <p className="text-white">43A, Piercefield Road, Formby, L37 7DG</p>
-          <p className="text-white">Opening Hours: Monday to Sunday, 10am - 5pm</p>
+          <p className="text-white">Opening Hours: Monday to Sunday, 10.00 AM - 5.00 PM</p>
         </div>
       </div>
     </div>

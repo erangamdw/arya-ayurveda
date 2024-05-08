@@ -9,10 +9,14 @@ import About from './components/About/About';
 import Testimonials from './components/Testimonials/Testimonials';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
+import { ToastContainer, toast } from 'react-toastify';
+
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
     <div className="App">
+     <ToastContainer />
       <Header />
       <Services />
       <Work />

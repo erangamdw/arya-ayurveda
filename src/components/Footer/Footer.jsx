@@ -22,18 +22,19 @@ const Footer = () => {
         <div className="footer-content">
           <ul className="flex footer-social-links flex-c">
             <li>
-              <a href="/" className="text-white">
+              <a href="https://web.facebook.com/aryaayurveda.co.uk"  target="_blank" className="text-white" rel="noreferrer">
                 <FaFacebookF />
+              </a>
+            </li>
+           
+            <li>
+              <a href="https://www.instagram.com/aryaa_ayurveda"  target="_blank" className="text-white" rel="noreferrer">
+                <FaInstagram />
               </a>
             </li>
             <li>
               <a href="/" className="text-white">
                 <FaTwitter />
-              </a>
-            </li>
-            <li>
-              <a href="/" className="text-white">
-                <FaInstagram />
               </a>
             </li>
             <li>

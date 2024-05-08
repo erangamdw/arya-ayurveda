@@ -108,22 +108,22 @@ const about_stats = [
 
 const testimonials = [
   {
-    name: "Lelia Merritt",
+    name: "Emily M.",
     post: "Software Engineer",
     paragraph:
-      "Aliquam et odio arcu. Vestibulum pharetra tincidunt odio, sed pulvinar magna tempus quis. Mauris risus odio, semper sit amet tortor a, tristique consectetur urna.",
+      "I never believed in natural remedies until I experienced the magic of Ayurveda at this center. Their personalized approach and genuine care have truly transformed my life. Highly recommended!",
   },
   {
-    name: "John Huston",
+    name: "John S.",
     post: "Accountant",
     paragraph:
-      "Aliquam et odio arcu. Vestibulum pharetra tincidunt odio, sed pulvinar magna tempus quis. Mauris risus odio, semper sit amet tortor a, tristique consectetur urna.",
+      "From chronic pain to renewed vitality, I owe it all to the dedicated team at this Ayurveda center. Their expertise and compassionate guidance have been a blessing on my journey to wellness.",
   },
   {
-    name: "Jeniffer Green",
+    name: "Jeniffer G.",
     post: "Marketing Manager",
     paragraph:
-      "Aliquam et odio arcu. Vestibulum pharetra tincidunt odio, sed pulvinar magna tempus quis. Mauris risus odio, semper sit amet tortor a, tristique consectetur urna.",
+      "A sanctuary of healing and rejuvenation! I've tried countless therapies, but nothing compares to the holistic approach of Ayurveda practiced here. Grateful for the positive changes it's brought into my life.",
   },
 ];
 

@@ -3,6 +3,13 @@ import "./Navbar.css";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 
+export const smoothScrollTo = (target) => {
+  document.querySelector(target).scrollIntoView({
+    behavior: "smooth",
+    block: "start",
+  });
+};
+
 const Navbar = () => {
   const [navToggler, setNavToggler] = useState(false);
   const closeNavbar = () => setNavToggler(false);
@@ -11,16 +18,16 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="container">
         <div className="navbar-content">
-          <div className="brand-and-toggler flex flex-sb">
+          <div className="flex brand-and-toggler flex-sb">
             <Link
               to="/"
-              className="navbar-brand text-uppercase fw-7 text-white ls-2 fs-22"
+              className="text-white navbar-brand text-uppercase fw-7 ls-2 fs-22"
             >
               Arya Ayurveda
             </Link>
             <button
               type="button"
-              className="navbar-open-btn text-white"
+              className="text-white navbar-open-btn"
               onClick={() => setNavToggler(!navToggler)}
             >
               <FaBars size={30} />
@@ -35,7 +42,7 @@ const Navbar = () => {
             >
               <button
                 type="button"
-                className="navbar-close-btn text-white"
+                className="text-white navbar-close-btn"
                 onClick={closeNavbar}
               >
                 <FaTimes size={30} />
@@ -44,41 +51,45 @@ const Navbar = () => {
                 <li className="nav-item">
                   <Link
                     to="/"
-                    className="nav-link text-white ls-1 text-uppercase fw-6 fs-22"
+                    className="text-white nav-link ls-1 text-uppercase fw-6 fs-22"
                   >
                     Home
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link
-                    to="/"
-                    className="nav-link text-white ls-1 text-uppercase fw-6 fs-22"
+                    to="/#services"
+                    className="text-white nav-link ls-1 text-uppercase fw-6 fs-22"
+                    onClick={() => smoothScrollTo("#services")}
                   >
                     Services
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link
-                    to="/"
-                    className="nav-link text-white ls-1 text-uppercase fw-6 fs-22"
+                    to="/#work"
+                    className="text-white nav-link ls-1 text-uppercase fw-6 fs-22"
+                    onClick={() => smoothScrollTo("#Works")}
                   >
                     Works
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link
-                    to="/"
-                    className="nav-link text-white ls-1 text-uppercase fw-6 fs-22"
+                    to="/#about"
+                    className="text-white nav-link ls-1 text-uppercase fw-6 fs-22"
+                    onClick={() => smoothScrollTo("#about")}
                   >
                     About Me
                   </Link>
                 </li>
                 <li className="nav-item">
                   <Link
-                    to="/"
-                    className="nav-link text-white ls-1 text-uppercase fw-6 fs-22"
+                    to="/#contact"
+                    className="text-white nav-link ls-1 text-uppercase fw-6 fs-22"
+                    onClick={() => smoothScrollTo("#contact")}
                   >
-                    Contact
+                    Booking Us
                   </Link>
                 </li>
               </ul>

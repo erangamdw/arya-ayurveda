@@ -15,7 +15,7 @@ const About = () => {
   };
 
   return (
-    <div className="about section-p">
+    <div className="about section-p" id="about">
       <div className="container">
         <div className="about-content">
           <div className="grid about-grid">
@@ -29,9 +29,7 @@ const About = () => {
                 <span className="text-dark">Our</span> Expertise
               </h3>
               <p className="mx-auto text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Numquam culpa distinctio mollitia consectetur dolore! Iusto
-                dolores reprehenderit at ad! Molestiae.
+              Our expertise lies in harnessing centuries-old Ayurvedic wisdom to offer holistic healing solutions tailored to each individual's unique needs, promoting balance, vitality, and overall well-being.
               </p>
             </div>
           </div>
@@ -58,10 +56,7 @@ const About = () => {
                 Video <span className="text-dark">Presentation</span>
               </h3>
               <p className="mx-auto text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
-                molestias maxime tenetur, temporibus aspernatur, omnis expedita
-                saepe sapiente adipisci laboriosam necessitatibus ullam eveniet
-                asperiores nostrum.
+              Experience the transformative power of Ayurveda come to life in our video presentations, where ancient knowledge meets modern understanding, offering insights into our holistic approach to health and rejuvenation.
               </p>
             </div>
 

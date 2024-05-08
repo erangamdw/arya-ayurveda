@@ -8,10 +8,14 @@
     margin-top: 2rem;
 }
 .footer-social-links li{
-    margin: 0 1rem;
+    margin: 0 3rem;
 }
 .footer .reserved-text{
     margin-top: 2rem;
+}
+
+.footer-content svg {
+  font-size: 30px; /* Adjust the size as needed */
 }
 
 .phone-number {

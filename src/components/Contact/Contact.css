@@ -25,3 +25,9 @@
     border: 2px solid var(--brown-color);
     transition: var(--transition);
 }
+
+.error {
+    color: red;
+    margin-left: 10px; /* Adjust margin as needed */
+  }
+  
